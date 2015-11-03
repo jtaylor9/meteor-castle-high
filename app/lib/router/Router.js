@@ -10,7 +10,7 @@ Router.configure({
   loadingTemplate: 'Loading'
 });
 
-Router.route('/', {
+Router.route('/Home', {
   name: 'Home'
 });
 
@@ -22,6 +22,21 @@ Router.route('/add', {
   name: 'AddStuff'
 });
 
+Router.route('/StudentParents', {
+  name: 'StudentParents'
+});
+
+Router.route('/ContactUs', {
+  name: 'ContactUs'
+});
+
+Router.route('/AlumniFriends', {
+  name: 'AlumniFriends'
+});
+
+Router.route('/FacultyStaff', {
+  name: 'FacultyStaff'
+});
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
